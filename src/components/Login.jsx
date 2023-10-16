@@ -1,6 +1,5 @@
-import React from "react";
-import { useNavigate } from "react-router-dom";
-
+import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 const Login = () => {
   const navigate = useNavigate();
@@ -29,13 +28,15 @@ const Login = () => {
             </div>
           </div>
           <div className="buttton flex justify-evenly relative top-[8rem]">
-            <button className="bg-red-400 hover:bg-red-700 text-white text-xl font-bold font-roboto py-6 px-8 rounded-[8px] "
-          onClick={() => navigate("/signup")}
-             >
+            <button
+              className="bg-red-400 duration-300 hover:bg-red-700 text-white text-xl font-bold font-roboto py-6 px-8 rounded-[8px] "
+              onClick={() => navigate('/signup')}
+            >
               I am looking for freelancer
             </button>
-            <button className="bg-red-400 hover:bg-red-700 text-white text-xl font-bold font-roboto py-6 px-8 rounded-[8px]  "
-          onClick={() => nav("/work")}
+            <button
+              className="bg-red-400 duration-300 hover:bg-red-700 text-white text-xl font-bold font-roboto py-6 px-8 rounded-[8px]  "
+              onClick={() => nav('/work')}
             >
               I am looking for work
             </button>

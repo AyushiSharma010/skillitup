@@ -1,6 +1,4 @@
-import React, { useState } from "react";
-import { useNavigate } from "react-router-dom";
-
+import { useNavigate } from 'react-router-dom';
 
 const Signup = () => {
   const navigate = useNavigate();
@@ -74,18 +72,21 @@ const Signup = () => {
                 id="Confirm Password"
               />
             </div>
-            <button class="bg-red-400 hover:bg-red-700 text-white text-xl font-bold font-roboto py-4 px-6 rounded-[12px] "
-              onClick={() => navigate("/profile")}
-                      >
+            <button
+              className="bg-red-400 duration-300 hover:bg-red-700 text-white text-xl font-bold font-roboto py-4 px-6 rounded-[12px] "
+              onClick={() => navigate('/profile')}
+            >
               Sign in
             </button>
-            <div className="OrContinueWith w-[98.29px] h-[18.41px] text-stone-900 text-[12px] font-normal font-roboto align-middle relative left-[9rem]  ">Or continue with</div>
+            <div className="OrContinueWith w-[98.29px] h-[18.41px] text-stone-900 text-[12px] font-normal font-roboto align-middle relative left-[9rem]  ">
+              Or continue with
+            </div>
             <input
-                className=" w-[360px] h-[37.09px] rounded border text-center border-[#FF6578] text-[#FF6578] text-[16px] font-normal font-roboto"
-                placeholder="Google"
-                type="Google"
-                id="Google"
-              />
+              className=" w-[360px] h-[37.09px] rounded border text-center border-[#FF6578] text-[#FF6578] text-[16px] font-normal font-roboto"
+              placeholder="Google"
+              type="Google"
+              id="Google"
+            />
           </form>
         </div>
       </div>

@@ -1,8 +1,6 @@
-import React, { useState } from "react";
+import React, { useState } from 'react';
 
 const Signup = () => {
-
-
   return (
     <div className="signup">
       <div className="elements">
@@ -72,16 +70,18 @@ const Signup = () => {
                 id="Confirm Password"
               />
             </div>
-            <button class="bg-red-400 hover:bg-red-700 text-white text-xl font-bold font-roboto py-4 px-6 rounded-[12px] ">
+            <button className="bg-red-400 duration-300 hover:bg-red-700 text-white text-xl font-bold font-roboto py-4 px-6 rounded-[12px] ">
               Sign in
             </button>
-            <div className="OrContinueWith w-[98.29px] h-[18.41px] text-stone-900 text-[12px] font-normal font-roboto align-middle relative left-[9rem]  ">Or continue with</div>
+            <div className="OrContinueWith w-[98.29px] h-[18.41px] text-stone-900 text-[12px] font-normal font-roboto align-middle relative left-[9rem]  ">
+              Or continue with
+            </div>
             <input
-                className=" w-[360px] h-[37.09px] rounded border text-center border-[#FF6578] text-[#FF6578] text-[16px] font-normal font-roboto"
-                placeholder="Google"
-                type="Google"
-                id="Google"
-              />
+              className=" w-[360px] h-[37.09px] rounded border text-center border-[#FF6578] text-[#FF6578] text-[16px] font-normal font-roboto"
+              placeholder="Google"
+              type="Google"
+              id="Google"
+            />
           </form>
         </div>
       </div>

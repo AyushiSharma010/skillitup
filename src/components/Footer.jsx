@@ -1,8 +1,8 @@
-import React from "react";
+import React from 'react';
 
 const Footer = () => {
   return (
-    <div className="footer  p-64 bg-[#5C7BAB]">
+    <div className="footer p-40 bg-[#5C7BAB]">
       <div className="text flex justify-evenly m-7 text-zinc-100 text-xl font-normal font-roboto  ">
         <ul className="one absolute right-[40rem]">
           <li className="home hover:text-red-300 hover:cursor-pointer">
